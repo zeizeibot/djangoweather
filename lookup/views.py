@@ -1,3 +1,4 @@
+#Tämä on minun views.py tiedosto
 from django.shortcuts import render
 
 def home(request):
