@@ -2,7 +2,33 @@
 
 {% block content %}
 
-<h1>Hei maailma!</h1>
+
+<br/>
+{% if zipcode %}
+	{{ zipcode }}
+{% endif %}
+	{% if category_color %}
+<!--	{% if api == "Error..." %}
+		Tuli errori, kokeile uudestaan...
+	{% else %} -->
+
+
+
+	
+	<div class="jumbotron {{ category_color }} ">
+  	 <h1 class="display-4"><!--{{ api.0.Category.Name}}--->{{ olosuhde }} {{ lampotila }} {{ cels }} </h1>
+  	 <p class="lead">Alue: <!--{{ api.0.ReportingArea}}  Ilman Laatu: {{ api.0.AQI }}-->{{ paikka }}</p>
+
+  	 {{ category_description }}
+  	 
+	</div>
+		
+		
+	{% endif %}
+
+
+{% endif %}
+
 
 {% endblock %}
 
