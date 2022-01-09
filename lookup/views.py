@@ -10,9 +10,9 @@ def home(request):
 		zipcode = request.POST['zipcode']
 		s = HTMLSession()
 		query = 'pikku huopalahti'
-		url = f'https://www.google.fi/search?q=s%C3%A4%C3%A4+{zipcode}'
+		url = f'https://www.google.fi/search?q=s%C3%A4%C3%A4&gl=fi&hl=fi+{zipcode}'
 		r = s.get(url)
-		temp = r.html.find('span#wob_tm', first = True).text
+		temp = r.html.find('span#wob_tm', first = True).text		
 		unit = r.html.find('div.vk_bk.wob-unit span.wob_t', first=True).text
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 #		category_color = "kylma"
