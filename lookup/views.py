@@ -34,7 +34,7 @@ def home(request):
 #		except Exception as e:
 #			api = "Error..."
 
-		if  uus_temp < 0:
+		if  uus_temp < 32:
 			category_description = "(<- 0) Kantsii alkaa miettii pitkii jussei"								#"(0 - 50)  Ilmanlaatu on tyydyttävä, ja ilmansaasteet aiheuttavat vain vähän tai ei lainkaan riskiä."
 			category_color = "kylma"
 			lampotila = uus_temp
@@ -42,7 +42,7 @@ def home(request):
 			olosuhde = desc
 			paikka = zipcode
 
-		elif uus_temp > 0:
+		elif uus_temp > 32:
 			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 			category_color = "good"
 			lampotila = uus_temp
