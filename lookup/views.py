@@ -40,7 +40,6 @@ def home(request):
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = float(temp)
 			unit = '°C'
-			category_color = "kylma"
 			lampotila = uus_temp
 			cels = unit
 			olosuhde = desc
@@ -48,9 +47,25 @@ def home(request):
 
 			if uus_temp < 32:
 				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+				category_color = "kylma"
+				uus_temp = (uus_temp-32)*5/9
+				uus_temp = float(temp)
+				unit = '°C'
+				lampotila = uus_temp
+				cels = unit
+				olosuhde = desc
+				paikka = zipcode
 
 			elif uus_temp > 32:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+				category_color = "good"
+				uus_temp = (uus_temp-32)*5/9
+				uus_temp = float(temp)
+				unit = '°C'
+				lampotila = uus_temp
+				cels = unit
+				olosuhde = desc
+				paikka = zipcode
 
 #		elif uus_temp > 32:
 #			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
@@ -109,9 +124,25 @@ def home(request):
 
 			if uus_temp < 32:
 				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+				category_color = "kylma"
+				uus_temp = (uus_temp-32)*5/9
+				uus_temp = float(temp)
+				unit = '°C'
+				lampotila = uus_temp
+				cels = unit
+				olosuhde = desc
+				paikka = query
 
 			elif uus_temp > 32:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+				category_color = "good"
+				uus_temp = (uus_temp-32)*5/9
+				uus_temp = float(temp)
+				unit = '°C'
+				lampotila = uus_temp
+				cels = unit
+				olosuhde = desc
+				paikka = query
 
 #		elif unit == ('°Fahrenheit') and ('°F') and (uus_temp) > 32:
 #
