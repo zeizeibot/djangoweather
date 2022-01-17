@@ -1,10 +1,11 @@
 #Tämä on minun views.py tiedosto
 from django.shortcuts import render
-
+from . import muuntaja
 def home(request):
 	import json
 	import requests
 	from requests_html import HTMLSession
+	
 
 	if request.method == "POST":
 		zipcode = request.POST['zipcode']
@@ -18,6 +19,7 @@ def home(request):
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 #		category_color = "kylma"
 		uus_temp = int(temp)
+		muuntaja.muuttaja(desc)
 		
 #		try:
 #			session = HTMLSession()
@@ -44,7 +46,7 @@ def home(request):
 			cels = unit
 			olosuhde = desc
 			paikka = zipcode
-
+			
 			if uus_temp < 0:
 				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
 				category_color = "kylma"
