@@ -8,7 +8,7 @@ def muuttaja(muutettava):
 		muutettava = 'puolipilvistä'
 	elif muutettava == 'mostly cloudy':
 		muutettava = 'enimmäkseen pilvistä'
-	elif muutettava == 'cloudy':
+	elif muutettava == 'Cloudy':
 		muutettava = 'pilvistä'
 	elif muutettava == 'fog':
 		muutettava = 'sumua'
