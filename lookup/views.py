@@ -86,10 +86,17 @@ def home(request):
 		unit = r.html.find('div.vk_bk.wob-unit span.wob_t', first=True).text
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
-		if temp =='°Fahrenheit':
+		if unit ==('°Fahrenheit') or ('°F'):
 			
-			unit=(unit-32)*5/9
-			temp= '°C'
+			uus_temp = (uus_temp-32)*5/9
+			unit = '°C'
+			category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+			category_color = "kylma"
+			lampotila = uus_temp
+			cels = unit
+			olosuhde = desc
+			paikka = query
+
 			
 #		try:
 #			api = json.loads(api_request.content)
