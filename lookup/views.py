@@ -35,7 +35,7 @@ def home(request):
 #		except Exception as e:
 #			api = "Error..."
 
-		if unit == ('°Fahrenheit') or ('°F') :
+		if unit == ('°Fahrenheit') and ('°F') :
 			
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = float(temp)
@@ -111,7 +111,7 @@ def home(request):
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
 		
-		if unit == ('°Fahrenheit') or ('°F') :
+		if unit == ('°Fahrenheit') and ('°F') :
 			
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = float(temp)
