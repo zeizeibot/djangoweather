@@ -35,21 +35,30 @@ def home(request):
 #		except Exception as e:
 #			api = "Error..."
 
-		if  uus_temp < 32:
-			category_description = "(<- 0) Kantsii alkaa miettii pitkii jussei"								#"(0 - 50)  Ilmanlaatu on tyydyttävä, ja ilmansaasteet aiheuttavat vain vähän tai ei lainkaan riskiä."
+		if unit == ('°Fahrenheit') or ('°F') :
+			
+			uus_temp = (uus_temp-32)*5/9
+			uus_temp = float(temp)
+			unit = '°C'
 			category_color = "kylma"
 			lampotila = uus_temp
 			cels = unit
 			olosuhde = desc
 			paikka = zipcode
 
-		elif uus_temp > 32:
-			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
-			category_color = "good"
-			lampotila = uus_temp
-			cels = unit
-			olosuhde = desc
-			paikka = zipcode
+			if uus_temp < 32:
+				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+
+			elif uus_temp > 32:
+				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+
+#		elif uus_temp > 32:
+#			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+#			category_color = "good"
+#			lampotila = uus_temp
+#			cels = unit
+#			olosuhde = desc
+#			paikka = zipcode
 
 
 #		elif api[0]['Category']['Name'] == "Unhealthy for Sensitive Groups":	 	
@@ -86,38 +95,56 @@ def home(request):
 		unit = r.html.find('div.vk_bk.wob-unit span.wob_t', first=True).text
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
-		if unit ==('°Fahrenheit') or ('°F'):
+		
+		if unit == ('°Fahrenheit') or ('°F') :
 			
 			uus_temp = (uus_temp-32)*5/9
+			uus_temp = float(temp)
 			unit = '°C'
-			category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
 			category_color = "kylma"
 			lampotila = uus_temp
 			cels = unit
 			olosuhde = desc
 			paikka = query
 
-			
+			if uus_temp < 32:
+				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+
+			elif uus_temp > 32:
+				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+
+#		elif unit == ('°Fahrenheit') and ('°F') and (uus_temp) > 32:
+#
+#			uus_temp = (uus_temp-32)*5/9
+#			uus_temp = float(temp)
+#			unit = '°C'
+#			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+#			category_color = "good"
+#			lampotila = uus_temp
+#			cels = unit
+#			olosuhde = desc
+#			paikka = query
+
 #		try:
 #			api = json.loads(api_request.content)
 #		except Exception as e:
 #			api = "Error..."
 
-		elif uus_temp < 32:
-			category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
-			category_color = "kylma"
-			lampotila = uus_temp
-			cels = unit
-			olosuhde = desc
-			paikka = query
+#		elif uus_temp < 32:
+#			category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+#			category_color = "kylma"
+#			lampotila = uus_temp
+#			cels = unit
+#			olosuhde = desc
+#			paikka = query
 
-		elif uus_temp > 32:
-			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
-			category_color = "good"
-			lampotila = uus_temp
-			cels = unit
-			olosuhde = desc
-			paikka = query
+#		elif uus_temp > 32:
+#			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+#			category_color = "good"
+#			lampotila = uus_temp
+#			cels = unit
+#			olosuhde = desc
+#			paikka = query
 #		elif api[0]['Category']['Name'] == "Moderate":
 #			category_description = "(51 - 100)	Ilmanlaatu on hyväksyttävää. Joillekin ihmisille, erityisesti niille, jotka ovat epätavallisen herkkiä ilmansaasteille, voi kuitenkin olla riski."
 #			category_color = "moderate"
