@@ -38,7 +38,7 @@ def home(request):
 		if unit == ('°Fahrenheit') or ('°F') :
 			
 			uus_temp = (uus_temp-32)*5/9
-			uus_temp = float(temp)
+			uus_temp = float(uus_temp)
 			unit = '°C'
 			lampotila = uus_temp
 			cels = unit
@@ -102,7 +102,7 @@ def home(request):
 		if unit == ('°Fahrenheit') or ('°F') :
 			
 			uus_temp = (uus_temp-32)*5/9
-			uus_temp = float(temp)
+			uus_temp = float(uus_temp)
 			unit = '°C'
 			lampotila = uus_temp
 			cels = unit
