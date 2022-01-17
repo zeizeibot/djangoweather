@@ -81,19 +81,25 @@ def home(request):
 		url = f'https://www.google.fi/search?q=s%C3%A4%C3%A4+{query}'
 #		url = f'https://www.google.fi/search?q=s%C3%A4%C3%A4+{query}'
 		r = s.get(url)
+#		temp = r.html.find('a.wob_t', first = True).text
 		temp = r.html.find('span#wob_tm', first = True).text
 		unit = r.html.find('div.vk_bk.wob-unit span.wob_t', first=True).text
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
+		if temp =='°F':
+			
+			unit=(unit-32)*5/9
+			temp= '°C'
+			
 #		try:
 #			api = json.loads(api_request.content)
 #		except Exception as e:
 #			api = "Error..."
 
-		if uus_temp < 32:
+		elif uus_temp < 32:
 			category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
 			category_color = "kylma"
-			lampotila = temp
+			lampotila = uus_temp
 			cels = unit
 			olosuhde = desc
 			paikka = query
