@@ -45,7 +45,7 @@ def home(request):
 			olosuhde = desc
 			paikka = zipcode
 
-			if uus_temp < 32:
+			if uus_temp < 0:
 				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
 				category_color = "kylma"
 				uus_temp = (uus_temp-32)*5/9
@@ -56,7 +56,7 @@ def home(request):
 				olosuhde = desc
 				paikka = zipcode
 
-			elif uus_temp > 32:
+			elif uus_temp > 0:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 				category_color = "good"
 				uus_temp = (uus_temp-32)*5/9
@@ -121,7 +121,7 @@ def home(request):
 			olosuhde = desc
 			paikka = query
 
-			if uus_temp < 32:
+			if uus_temp < 0:
 				category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
 				category_color = "kylma"
 				uus_temp = (uus_temp-32)*5/9
@@ -132,7 +132,7 @@ def home(request):
 				olosuhde = desc
 				paikka = query
 
-			elif uus_temp > 32:
+			elif uus_temp > 0:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 				category_color = "good"
 				uus_temp = (uus_temp-32)*5/9
