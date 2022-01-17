@@ -19,7 +19,7 @@ def home(request):
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 #		category_color = "kylma"
 		uus_temp = int(temp)
-		muuntaja.muuttaja(desc)
+		desc = muuntaja.muuttaja(desc)
 		
 #		try:
 #			session = HTMLSession()
@@ -38,7 +38,7 @@ def home(request):
 #			api = "Error..."
 
 		if unit == ('°Fahrenheit') or ('°F') :
-			muuntaja.muuttaja(desc)
+			desc = muuntaja.muuttaja(desc)
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = int(uus_temp)
 			unit = '°C'
@@ -100,9 +100,9 @@ def home(request):
 		unit = r.html.find('div.vk_bk.wob-unit span.wob_t', first=True).text
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
-		muuntaja.muuttaja(desc)
+		desc = muuntaja.muuttaja(desc)
 		if unit == ('°Fahrenheit') or ('°F') :
-			muuntaja.muuttaja(desc)
+			desc = muuntaja.muuttaja(desc)
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = int(uus_temp)
 			unit = '°C'
