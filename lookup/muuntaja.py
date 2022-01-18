@@ -16,8 +16,8 @@ def muuttaja(muutettava):
 		muutettava = 'Enimmäkseen aurinkoista'
 	elif muutettava == 'Haze':
 		muutettava = 'Sumua'
-	elif muutettava == '':
-		muutettava = ''
+	elif muutettava == 'Sunny':
+		muutettava = 'Aurinkoista'
 	elif muutettava == 'Clear with periodic clouds':
 		muutettava = 'Selkeää ja ajoittain pilvistä'
 	elif muutettava== 'Partly cloudy':
