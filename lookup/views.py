@@ -19,7 +19,9 @@ def home(request):
 #		category_color = "kylma"
 		uus_temp = int(temp)
 		desc = muuntaja.muuttaja(desc)
+	
 		
+
 #		try:
 			
 #			temp = type(temp) == str	
@@ -60,6 +62,8 @@ def home(request):
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 				category_color = "good"
 				
+			elif uus_temp != ('°Fahrenheit') or ('°F'):
+				return render(request, 'home.html', {})
 
 #		elif uus_temp > 32:
 #			category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
