@@ -38,7 +38,7 @@ def home(request):
 #			api = "Error..."
 
 		if unit == ('°Fahrenheit') or ('°F') :
-			desc = muuntaja.muuttaja(desc)
+#			desc = muuntaja.muuttaja(desc)
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = int(uus_temp)
 			unit = '°C'
@@ -102,7 +102,7 @@ def home(request):
 		uus_temp = int(temp)
 		desc = muuntaja.muuttaja(desc)
 		if unit == ('°Fahrenheit') or ('°F') :
-			desc = muuntaja.muuttaja(desc)
+#			desc = muuntaja.muuttaja(desc)
 			uus_temp = (uus_temp-32)*5/9
 			uus_temp = int(uus_temp)
 			unit = '°C'

@@ -1,99 +1,99 @@
 def muuttaja(muutettava):
 	
-	if muutettava == 'clear':
-		muutettava = 'selkeää'
-	elif muutettava == 'mostly clear':
-		muutettava = 'enimmäkseen selkeää'
-	elif muutettava== 'partly cloudy':
-		muutettava = 'puolipilvistä'
-	elif muutettava == 'mostly cloudy':
-		muutettava = 'enimmäkseen pilvistä'
+	if muutettava == 'Clear':
+		muutettava = 'Selkeää'
+	elif muutettava == 'Mostly clear':
+		muutettava = 'Enimmäkseen selkeää'
+	elif muutettava== 'Partly cloudy':
+		muutettava = 'Puolipilvistä'
+	elif muutettava == 'Mostly cloudy':
+		muutettava = 'Enimmäkseen pilvistä'
 	elif muutettava == 'Cloudy':
-		muutettava = 'pilvistä'
-	elif muutettava == 'fog':
-		muutettava = 'sumua'
-	elif muutettava == 'drizzle':
-		muutettava = 'tihkusadetta'
-	elif muutettava == 'freezing drizzle':
-		muutettava = 'jäätävää tihkua'
-	elif muutettava == 'freezing rain':
-		muutettava = 'jäätävää sadetta'
-	elif muutettava == 'isolated showers':
-		muutettava = 'yksittäisiä sadekuuroja'
-	elif muutettava == 'scattered showers':
-		muutettava = 'paikoin sadekuuroja'
-	elif muutettava == 'showers':
-		muutettava = 'sadekuuroja'
-	elif muutettava == 'partly cloudy and periods of light rain':
-		muutettava = 'puolipilvistä ja ajoittain heikkoa vesisadetta'
-	elif muutettava == 'partly cloudy and periods of moderate rain':
-		muutettava = 'puolipilvistä ja ajoittain kohtalaista vesisadetta'
-	elif muutettava == 'partly cloudy and periods of heavy rain':
-		muutettava = 'puolipilvistä ja ajoittain voimakasta vesisadetta'
-	elif muutettava == 'mostly cloudy and periods of light rain':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain heikkoa vesisadetta'
-	elif muutettava == 'mostly cloudy and periods of moderate rain':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain kohtalaista vesisadetta'
-	elif muutettava == 'mostly cloudy and periods of heavy rain':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain voimakasta vesisadetta'
-	elif muutettava == 'light rain':
-		muutettava = 'heikkoa vesisadetta'
-	elif muutettava == 'moderate rain':
-		muutettava = 'kohtalaista vesisadetta'
-	elif muutettava == 'heavy rain':
-		muutettava = 'voimakasta vesisadetta'
-	elif muutettava == 'isolated light sleet showers':
-		muutettava = 'puolipilvistä ja ajoittain heikkoa räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'isolated moderate sleet showers':
-		muutettava = 'puolipilvistä ja ajoittain kohtalaista räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'isolated heavy sleet showers':
-		muutettava = 'puolipilvistä ja ajoittain voimakasta räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'scattered light sleet showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain heikkoa räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'scattered moderate sleet showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain kohtalaista räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'scattered heavy sleet showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain voimakasta räntäsadetta tai räntäkuuroja'
-	elif muutettava == 'light sleet':
-		muutettava = 'heikkoa räntäsadetta'
-	elif muutettava == 'moderate sleet':
-		muutettava = 'kohtalaista räntäsadetta'
-	elif muutettava == 'heavy sleet':
-		muutettava = 'voimakasta räntäsadetta'
-	elif muutettava == 'isolated light snow showers':
-		muutettava = 'puolipilvistä ja ajoittain heikkoa lumisadetta tai lumikuuroja'
-	elif muutettava == 'isolated moderate snow showers':
-		muutettava = 'puolipilvistä ja ajoittain kohtalaista lumisadetta tai lumikuuroja'
-	elif muutettava == 'isolated heavy snow showers':
-		muutettava = 'puolipilvistä ja ajoittain sakeaa lumisadetta tai lumikuuroja'
-	elif muutettava == 'scattered light snow showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain heikkoa lumisadetta tai lumikuuroja'
-	elif muutettava == 'scattered moderate snow showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain kohtalaista lumisadetta tai lumikuuroja'
-	elif muutettava == 'scattered heavy snow showers':
-		muutettava = 'enimmäkseen pilvistä ja ajoittain sakeaa lumisadetta tai lumikuuroja'
-	elif muutettava == 'light snowfall':
-		muutettava = 'heikkoa lumisadetta'
-	elif muutettava == 'moderate snowfall':
-		muutettava = 'kohtalaista lumisadetta'
-	elif muutettava == 'heavy snowfall':
-		muutettava = 'runsasta lumisadetta'
-	elif muutettava == 'isolated hail showers':
-		muutettava = 'yksittäisiä raekuuroja'
-	elif muutettava == 'scattered hail showers':
-		muutettava = 'paikoin raekuuroja'
-	elif muutettava == 'hail showers':
-		muutettava = 'raekuuroja'
-	elif muutettava == 'isolated thundershowers':
-		muutettava = 'yksittäisiä ukkoskuuroja'
-	elif muutettava == 'scattered thundershowers':
-		muutettava = 'paikoin ukkoskuuroja'
-	elif muutettava == 'thundershowers':
-		muutettava = 'ukkoskuuroja'
-	elif muutettava == 'mostly clear':
-		muutettava = 'enimmäkseen selkeää'
-	elif muutettava == 'mostly clear':
-		muutettava = 'enimmäkseen selkeää'
+		muutettava = 'Pilvistä'
+	elif muutettava == 'Fog':
+		muutettava = 'Sumua'
+	elif muutettava == 'Drizzle':
+		muutettava = 'Tihkusadetta'
+	elif muutettava == 'Freezing drizzle':
+		muutettava = 'Jäätävää tihkua'
+	elif muutettava == 'Freezing rain':
+		muutettava = 'Jäätävää sadetta'
+	elif muutettava == 'Isolated showers':
+		muutettava = 'Yksittäisiä sadekuuroja'
+	elif muutettava == 'Scattered showers':
+		muutettava = 'Paikoin sadekuuroja'
+	elif muutettava == 'Showers':
+		muutettava = 'Sadekuuroja'
+	elif muutettava == 'Partly cloudy and periods of light rain':
+		muutettava = 'Puolipilvistä ja ajoittain heikkoa vesisadetta'
+	elif muutettava == 'Partly cloudy and periods of moderate rain':
+		muutettava = 'Puolipilvistä ja ajoittain kohtalaista vesisadetta'
+	elif muutettava == 'Partly cloudy and periods of heavy rain':
+		muutettava = 'Puolipilvistä ja ajoittain voimakasta vesisadetta'
+	elif muutettava == 'Mostly cloudy and periods of light rain':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain heikkoa vesisadetta'
+	elif muutettava == 'Mostly cloudy and periods of moderate rain':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain kohtalaista vesisadetta'
+	elif muutettava == 'Mostly cloudy and periods of heavy rain':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain voimakasta vesisadetta'
+	elif muutettava == 'Light rain':
+		muutettava = 'Heikkoa vesisadetta'
+	elif muutettava == 'Moderate rain':
+		muutettava = 'Kohtalaista vesisadetta'
+	elif muutettava == 'Heavy rain':
+		muutettava = 'Voimakasta vesisadetta'
+	elif muutettava == 'Isolated light sleet showers':
+		muutettava = 'Puolipilvistä ja ajoittain heikkoa räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Isolated moderate sleet showers':
+		muutettava = 'Puolipilvistä ja ajoittain kohtalaista räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Isolated heavy sleet showers':
+		muutettava = 'Puolipilvistä ja ajoittain voimakasta räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Scattered light sleet showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain heikkoa räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Scattered moderate sleet showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain kohtalaista räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Scattered heavy sleet showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain voimakasta räntäsadetta tai räntäkuuroja'
+	elif muutettava == 'Light sleet':
+		muutettava = 'Heikkoa räntäsadetta'
+	elif muutettava == 'Moderate sleet':
+		muutettava = 'Kohtalaista räntäsadetta'
+	elif muutettava == 'Heavy sleet':
+		muutettava = 'Voimakasta räntäsadetta'
+	elif muutettava == 'Isolated light snow showers':
+		muutettava = 'Puolipilvistä ja ajoittain heikkoa lumisadetta tai lumikuuroja'
+	elif muutettava == 'Isolated moderate snow showers':
+		muutettava = 'Puolipilvistä ja ajoittain kohtalaista lumisadetta tai lumikuuroja'
+	elif muutettava == 'Isolated heavy snow showers':
+		muutettava = 'Puolipilvistä ja ajoittain sakeaa lumisadetta tai lumikuuroja'
+	elif muutettava == 'Scattered light snow showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain heikkoa lumisadetta tai lumikuuroja'
+	elif muutettava == 'Scattered moderate snow showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain kohtalaista lumisadetta tai lumikuuroja'
+	elif muutettava == 'Scattered heavy snow showers':
+		muutettava = 'Enimmäkseen pilvistä ja ajoittain sakeaa lumisadetta tai lumikuuroja'
+	elif muutettava == 'Light snowfall':
+		muutettava = 'Heikkoa lumisadetta'
+	elif muutettava == 'Moderate snowfall':
+		muutettava = 'Kohtalaista lumisadetta'
+	elif muutettava == 'Heavy snowfall':
+		muutettava = 'Runsasta lumisadetta'
+	elif muutettava == 'Isolated hail showers':
+		muutettava = 'Yksittäisiä raekuuroja'
+	elif muutettava == 'Scattered hail showers':
+		muutettava = 'Paikoin raekuuroja'
+	elif muutettava == 'Hail showers':
+		muutettava = 'Raekuuroja'
+	elif muutettava == 'Isolated thundershowers':
+		muutettava = 'Yksittäisiä ukkoskuuroja'
+	elif muutettava == 'Scattered thundershowers':
+		muutettava = 'Paikoin ukkoskuuroja'
+	elif muutettava == 'Thundershowers':
+		muutettava = 'Ukkoskuuroja'
+	elif muutettava == 'Mostly clear':
+		muutettava = 'Enimmäkseen selkeää'
+	elif muutettava == 'Mostly clear':
+		muutettava = 'Enimmäkseen selkeää'
 
 	return muutettava
 
