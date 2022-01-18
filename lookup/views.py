@@ -52,7 +52,7 @@ def home(request):
 				category_color = "kylma"
 				
 
-			elif uus_temp > 0:
+			elif uus_temp >= 0:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 				category_color = "good"
 				
@@ -116,7 +116,7 @@ def home(request):
 				category_color = "kylma"
 				
 
-			elif uus_temp > 0:
+			elif uus_temp >= 0:
 				category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
 				category_color = "good"
 			

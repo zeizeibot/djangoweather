@@ -4,6 +4,8 @@ def muuttaja(muutettava):
 		muutettava = 'Selkeää'
 	elif muutettava == 'Mostly clear':
 		muutettava = 'Enimmäkseen selkeää'
+	elif muutettava == 'Clear with periodic clouds':
+		muutettava = 'Selkeää ja ajoittain pilvistä'
 	elif muutettava== 'Partly cloudy':
 		muutettava = 'Puolipilvistä'
 	elif muutettava == 'Mostly cloudy':
