@@ -115,15 +115,3 @@ def muuttaja(muutettava):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
