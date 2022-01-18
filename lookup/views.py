@@ -10,7 +10,6 @@ def home(request):
 	if request.method == "POST":
 		zipcode = request.POST['zipcode']
 		s = HTMLSession()
-		query = 'pikku huopalahti'
 		url = f'https://www.google.fi/search?q=s%C3%A4%C3%A4+{zipcode}'
 		r = s.get(url)
 		temp = r.html.find('span#wob_tm', first = True).text
@@ -22,12 +21,17 @@ def home(request):
 		desc = muuntaja.muuttaja(desc)
 		
 #		try:
+			
+#			temp = type(temp) == str	
 #			session = HTMLSession()
 #			response = session.get(url)
-     
+
+#		except Exception:
+#			return render(request, 'home.html', {})
+
 #		except requests.exceptions.RequestException as e:
 #			response = "Error..."
-
+		
 	
 #		api_request = requests.get("https://www.google.fi/search?q=s%C3%A4%C3%A4" + zipcode)
 #		api_request = requests.get("https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=" + zipcode + "&distance=25&API_KEY=B232817F-BCAE-4762-8FD4-4C851B1FEDBA")
@@ -101,6 +105,7 @@ def home(request):
 		desc = r.html.find('div.VQF4g', first=True).find('span#wob_dc', first=True).text
 		uus_temp = int(temp)
 		desc = muuntaja.muuttaja(desc)
+
 		if unit == ('°Fahrenheit') or ('°F') :
 			desc = muuntaja.muuttaja(desc)
 			uus_temp = (uus_temp-32)*5/9
