@@ -40,14 +40,18 @@ def home(request):
 				paikka = query
 
 				if uus_temp < 0:
-					category_description =	"(<- 0) Kantsii alkaa miettii pitkii jussei"
+					huuto = "!!! !!! !!!"
+					virhe = "Nyt et antanu paikan nimee, mietippä uudestaa. Palautin sinut takaisin Helsinkiin."
+					category_description = "(<- 0) Kantsii alkaa miettii pitkii jussei"
 					category_color = "kylma"
-					return render(request, 'home.html', {'category_description': category_description, 'category_color': category_color,'lampotila':lampotila, 'cels':cels, 'olosuhde':olosuhde, 'paikka':paikka})
+					return render(request, 'home.html', {'huuto':huuto,'virhe': virhe,'category_description': category_description, 'category_color': category_color,'lampotila':lampotila, 'cels':cels, 'olosuhde':olosuhde, 'paikka':paikka})
 
 				elif uus_temp >= 0:
-					category_description = "(0 ->)	No nyt on lämmin, ei muutaku shortsit päälle"
+					huuto = "!!! !!! !!!"
+					virhe = "Nyt et antanu paikan nimee, mietippä uudestaa. Palautin sinut takaisin Helsinkiin."
+					category_description = "(0 ->) No nyt on lämmin, ei muutaku shortsit päälle"
 					category_color = "good"
-					return render(request, 'home.html', {'category_description': category_description, 'category_color': category_color,'lampotila':lampotila, 'cels':cels, 'olosuhde':olosuhde, 'paikka':paikka})
+					return render(request, 'home.html', {'huuto':huuto,'virhe': virhe,'category_description': category_description, 'category_color': category_color,'lampotila':lampotila, 'cels':cels, 'olosuhde':olosuhde, 'paikka':paikka})
 		else:
 			zipcode = request.POST['zipcode']
 			s = HTMLSession()

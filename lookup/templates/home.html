@@ -16,11 +16,13 @@
 
 	
 	<div class="jumbotron {{ category_color }} ">
-  	 <h1 class="display-4"><!--{{ api.0.Category.Name}}--->{{ olosuhde }} {{ lampotila }} {{ cels }} </h1>
-  	 <p class="lead">Alue: <!--{{ api.0.ReportingArea}}  Ilman Laatu: {{ api.0.AQI }}-->{{ paikka }}</p>
-
+  	 <h1 class="display-4">{{ olosuhde }} {{ lampotila }} {{ cels }} </h1>
+  	 <p class="lead">Alue: {{ paikka }}</p>
   	 {{ category_description }}
+  	 <br><br/>
+	<p>{{ huuto }}</p>
   	 
+  	 {{ virhe }}
 	</div>
 		
 		
