@@ -2,9 +2,9 @@ def muuttaja(muutettava):
 	
 	if muutettava == 'Clear':
 		muutettava = 'Selkeää'
-	elif muutettava == 'Snow showers'
+	elif muutettava == 'Snow showers':
 		muutettava ='Lumisadetta'
-	elif muutettava == 'Light snow showers'
+	elif muutettava == 'Light snow showers':
 		muutettava = 'Kevyttä lumisadetta'
 	elif muutettava == 'Mostly clear':
 		muutettava = 'Enimmäkseen selkeää'
