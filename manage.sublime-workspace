@@ -1,0 +1,494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"sup"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"e",
+				"method"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"m",
+				"muutettava"
+			],
+			[
+				"a",
+				"api_request"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"c",
+				"category_description"
+			],
+			[
+				"your",
+				"your_name"
+			],
+			[
+				"you",
+				"your_address"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST"
+			],
+			[
+				"Lis",
+				"ListForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"al",
+				"all_items"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"todo",
+				"todo_list"
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"tu",
+				"tuple_2"
+			],
+			[
+				"t",
+				"tuple_2"
+			],
+			[
+				"num",
+				"num_2"
+			],
+			[
+				"my",
+				"my_cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lookup/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 2595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAArCgAAPCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICA8aGVhZD4KICAgIDwhLS0gUmVxdWlyZWQgbWV0YSB0YWdzIC0tPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vIj4KCiAgICA8IS0tIEJvb3RzdHJhcCBDU1MgLS0+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Imh0dHBzOi8vc3RhY2twYXRoLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMy4xL2Nzcy9ib290c3RyYXAubWluLmNzcyIgaW50ZWdyaXR5PSJzaGEzODQtZ2dPeVIwaVhDYk1RdjNYaXBtYTM0TUQrZEgvMWZRNzg0L2o2Y1kvaUpUUVVPaGNXcjd4OUp2b1J4VDJNWncxVCIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+CgogICAgPHRpdGxlPlPDpMOka29uZTwvdGl0bGU+CgogICAgPHN0eWxlPgogICAgICAKICAgICAgICAuZ29vZCB7YmFja2dyb3VuZC1jb2xvcjogIzBjMDt9CiAgICAgICAgLm1vZGVyYXRlIHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRjAwO30KICAgICAgICAudXNnIHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkY5OTAwO30KICAgICAgICAudW5oZWFsdGh5IHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkYwMDAwO30KICAgICAgICAudmVyeXVuaGVhbHRoeSB7YmFja2dyb3VuZC1jb2xvcjogIzk5MDA2Njt9CiAgICAgICAgLmhhemFyZG91cyB7YmFja2dyb3VuZC1jb2xvcjogIzY2MDAwMDt9CiAgICAgICAgLmt5bG1hIHtiYWNrZ3JvdW5kLWNvbG9yOiAjNDY2NmQwO30KCiAgICA8L3N0eWxlPgogIDwvaGVhZD4KICA8Ym9keT4KICAJPG5hdiBjbGFzcz0ibmF2YmFyIG5hdmJhci1leHBhbmQtbGcgbmF2YmFyLWRhcmsgYmctZGFyayI+CiAgPGEgY2xhc3M9Im5hdmJhci1icmFuZCIgaHJlZj0ieyUgdXJsICdob21lJyAlfSI+U8Okw6Rrb25lLCBhaSBtw6TDpCB2YWk/PC9hPgogIDxidXR0b24gY2xhc3M9Im5hdmJhci10b2dnbGVyIiB0eXBlPSJidXR0b24iIGRhdGEtdG9nZ2xlPSJjb2xsYXBzZSIgZGF0YS10YXJnZXQ9IiNuYXZiYXJTdXBwb3J0ZWRDb250ZW50IiBhcmlhLWNvbnRyb2xzPSJuYXZiYXJTdXBwb3J0ZWRDb250ZW50IiBhcmlhLWV4cGFuZGVkPSJmYWxzZSIgYXJpYS1sYWJlbD0iVG9nZ2xlIG5hdmlnYXRpb24iPgogICAgPHNwYW4gY2xhc3M9Im5hdmJhci10b2dnbGVyLWljb24iPjwvc3Bhbj4KICA8L2J1dHRvbj4KCiAgPGRpdiBjbGFzcz0iY29sbGFwc2UgbmF2YmFyLWNvbGxhcHNlIiBpZD0ibmF2YmFyU3VwcG9ydGVkQ29udGVudCI+CiAgICA8dWwgY2xhc3M9Im5hdmJhci1uYXYgbXItYXV0byI+CiAgICAgPGxpIGNsYXNzPSJuYXYtaXRlbSI+CiAgICAgICAgPGEgY2xhc3M9Im5hdi1saW5rIiBocmVmPSJ7JSB1cmwgJ2Fib3V0JyAlfSI+R2l0aHViPC9hPgogICAgICA8L2xpPgogICAgICA8L3VsPgogICAgPGZvcm0gYWN0aW9uPSJ7JSB1cmwgJ2hvbWUnICV9ImNsYXNzPSJmb3JtLWlubGluZSBteS0yIG15LWxnLTAiIG1ldGhvZD0iUE9TVCI+CiAgICAgICAgICB7JSBjc3JmX3Rva2VuICV9CiAgICAgIDxpbnB1dCBjbGFzcz0iZm9ybS1jb250cm9sIG1yLXNtLTIiIHR5cGU9InNlYXJjaCIgcGxhY2Vob2xkZXI9ImFsdWUiIGFyaWEtbGFiZWw9IlNlYXJjaCIgbmFtZT0iemlwY29kZSI+CiAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tb3V0bGluZS1zZWNvbmRhcnkgbXktMiBteS1zbS0wIiB0eXBlPSJzdWJtaXQiPkthdHNvIHPDpMOkPC9idXR0b24+CiAgICA8L2Zvcm0+CiAgPC9kaXY+CjwvbmF2PgoJPGJyLz4KCTxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICB7JSBibG9jayBjb250ZW50ICV9CgoKCXslIGVuZGJsb2NrICV9Cgo8L2Rpdj4KCiAgICA8IS0tIE9wdGlvbmFsIEphdmFTY3JpcHQgLS0+CiAgICA8IS0tIGpRdWVyeSBmaXJzdCwgdGhlbiBQb3BwZXIuanMsIHRoZW4gQm9vdHN0cmFwIEpTIC0tPgogICAgPHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZS5qcXVlcnkuY29tL2pxdWVyeS0zLjMuMS5zbGltLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtcThpL1grOTY1RHpPMHJUN2FiSzQxSlN0UUlBcVZnUlZ6cGJ6bzVzbVhLcDRZZlJ2SCs4YWJ0VEUxUGk2aml6byIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvcG9wcGVyLmpzLzEuMTQuNy91bWQvcG9wcGVyLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtVU8yZVQwQ3BIcWRTSlE2aEp0eTVLVnBodFBoeldqOVdPMWNsSFRNR2EzSkRad3JuUXE0c0Y4NmRJSE5EejBXMSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9zdGFja3BhdGguYm9vdHN0cmFwY2RuLmNvbS9ib290c3RyYXAvNC4zLjEvanMvYm9vdHN0cmFwLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtSmpTbVZneWQwcDNwWEIxclJpYlpVQVlvSUl5Nk9yUTZWcmpJRWFGZi9uSkd6SXhGRHNmNHgweElNK0IwN2pSTSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgPC9ib2R5Pgo8L2h0bWw+CgoAAAAAAAAAACMKAAAAAAAAAAAAAAAAAAAAAAAAIwoAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "lookup/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 268,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAEAAAAAAAAAAQwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"paste",
+					null,
+					"AQAAAJ4AAAAAAAAAogAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngAAAAAAAACeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAKMAAAAAAAAApgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAowAAAAAAAACjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAAPUAAAAAAAAA+QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9QAAAAAAAAD1AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/djangoweather",
+		"/C/djangoweather/weather",
+		"/C/djangoweather/weather/.github",
+		"/C/djangoweather/weather/.github/workflows",
+		"/C/djangoweather/weather/lookup",
+		"/C/djangoweather/weather/lookup/templates",
+		"/C/djangoweather/weather/weather"
+	],
+	"file_history":
+	[
+		"/C/djangostock/stocks/quotes/templates/about.html",
+		"/C/djangostock/stocks/quotes/forms.py",
+		"/C/djangostock/stocks/quotes/admin.py",
+		"/C/djangostock/stocks/quotes/models.py",
+		"/C/djangostock/stocks/quotes/templates/base.html",
+		"/C/djangostock/stocks/quotes/urls.py",
+		"/C/djangostock/stocks/stocks/urls.py",
+		"/C/djangostock/stocks/stocks/settings.py",
+		"/C/djangostock/stocks/quotes/templates/home.html",
+		"/C/Users/joel_/Downloads/profile.publishsettings",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment_operations.json",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment.json",
+		"/C/djangostock/stocks/quotes/views.py",
+		"/C/djangoweather/weather/Procfile",
+		"/C/djangoweather/weather/lookup/templates/home.html",
+		"/C/djangoweather/weather/weather/urls.py",
+		"/C/djangoweather/weather/weather/settings.py",
+		"/C/dental/dental/website/templates/home.html",
+		"/C/dental/dental/dental/settings.py",
+		"/C/dental/dental/dental/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/models.py",
+		"/C/DjangoStuff/my_app/todo_list/views.py",
+		"/C/DjangoStuff/my_app/todo_list/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/edit.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/home.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/base.html",
+		"/C/DjangoStuff/my_app/todo_list/forms.py",
+		"/C/DjangoStuff/my_app/todo_list/admin.py",
+		"/C/DjangoStuff/my_app/todo_app/settings.py",
+		"/C/DjangoStuff/my_app/static/css/my_style.css",
+		"/C/DjangoStuff/my_app/todo_list/migrations/0001_initial.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/about.html",
+		"/C/DjangoStuff/my_app/todo_app/urls.py",
+		"/C/code/djangoproject/pages/views.py",
+		"/C/code/djangoproject/pages/namer.py",
+		"/C/code/djangoproject/pages/templates/home.html",
+		"/C/code/djangoproject/pages/urls.py",
+		"/C/code/djangoproject/pages/templates/base.html",
+		"/C/code/djangoproject/mysite/settings.py",
+		"/C/code/djangoproject/pages/templates/about.html",
+		"/C/code/djangoproject/pages/templates/contact.html",
+		"/C/code/djangoproject/mysite/urls.py",
+		"/C/djangoapi/djangoapi/courses/views.py",
+		"/C/djangoapi/djangoapi/courses/admin.py",
+		"/C/djangoapi/djangoapi/courses/urls.py",
+		"/C/djangoapi/djangoapi/courses/models.py",
+		"/C/djangoapi/djangoapi/courses/serializers.py",
+		"/C/djangoapi/djangoapi/djangoapi/settings.py",
+		"/C/djangoapi/djangoapi/djangoapi/urls.py",
+		"/C/djangoapi/djangoapi/urls.py",
+		"/C/Python/namer_module.py",
+		"/C/Python/hello.py",
+		"/C/mysql/database.py",
+		"/C/sqlite/our_app.py",
+		"/C/sqlite/database.py",
+		"/C/sqlite/customer.db"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lookup/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lookup/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Procfile",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

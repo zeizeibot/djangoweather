@@ -1,0 +1,370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"request"
+			],
+			[
+				"Co",
+				"Code"
+			],
+			[
+				"form-",
+				"form-control"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"pas",
+				"password1"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"UserCreation",
+				"UserCreationForm"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"s",
+				"sup"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"e",
+				"method"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"m",
+				"muutettava"
+			],
+			[
+				"a",
+				"api_request"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"c",
+				"category_description"
+			],
+			[
+				"your",
+				"your_name"
+			],
+			[
+				"you",
+				"your_address"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST"
+			],
+			[
+				"Lis",
+				"ListForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"al",
+				"all_items"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"todo",
+				"todo_list"
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"tu",
+				"tuple_2"
+			],
+			[
+				"t",
+				"tuple_2"
+			],
+			[
+				"num",
+				"num_2"
+			],
+			[
+				"my",
+				"my_cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/codebot/codebot/website/templates/navbar.html",
+		"/C/codebot/codebot/website/templates/register.html",
+		"/C/codebot/codebot/website/urls.py",
+		"/C/codebot/codebot/codebot/settings.py",
+		"/C/codebot/codebot/Procfile",
+		"/C/codebot/codebot/.gitignore",
+		"/C/codebot/codebot/website/views.py",
+		"/C/codebot/codebot/website/templates/past.html",
+		"/C/codebot/codebot/codebot/wsgi.py",
+		"/C/codebot/codebot/website/templates/base.html",
+		"/C/codebot/codebot/website/templates/home.html",
+		"/C/codebot/codebot/website/templates/suggest.html",
+		"/C/codebot/codebot/website/forms.py",
+		"/C/codebot/codebot/website/admin.py",
+		"/C/codebot/codebot/website/models.py",
+		"/C/codebot/codebot/codebot/urls.py",
+		"/C/djangochat/chatgpt/chatbot/urls.py",
+		"/C/djangochat/chatgpt/chatgpt/urls.py",
+		"/C/djangochat/chatgpt/chatgpt/settings.py",
+		"/C/flasker/hello.py",
+		"/C/djangostock/stocks/quotes/templates/about.html",
+		"/C/djangostock/stocks/quotes/forms.py",
+		"/C/djangostock/stocks/quotes/admin.py",
+		"/C/djangostock/stocks/quotes/models.py",
+		"/C/djangostock/stocks/quotes/templates/base.html",
+		"/C/djangostock/stocks/quotes/urls.py",
+		"/C/djangostock/stocks/stocks/urls.py",
+		"/C/djangostock/stocks/stocks/settings.py",
+		"/C/djangostock/stocks/quotes/templates/home.html",
+		"/C/Users/joel_/Downloads/profile.publishsettings",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment_operations.json",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment.json",
+		"/C/djangostock/stocks/quotes/views.py",
+		"/C/djangoweather/weather/Procfile",
+		"/C/djangoweather/weather/lookup/templates/home.html",
+		"/C/djangoweather/weather/weather/urls.py",
+		"/C/djangoweather/weather/weather/settings.py",
+		"/C/dental/dental/website/templates/home.html",
+		"/C/dental/dental/dental/settings.py",
+		"/C/dental/dental/dental/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/models.py",
+		"/C/DjangoStuff/my_app/todo_list/views.py",
+		"/C/DjangoStuff/my_app/todo_list/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/edit.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/home.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/base.html",
+		"/C/DjangoStuff/my_app/todo_list/forms.py",
+		"/C/DjangoStuff/my_app/todo_list/admin.py",
+		"/C/DjangoStuff/my_app/todo_app/settings.py",
+		"/C/DjangoStuff/my_app/static/css/my_style.css",
+		"/C/DjangoStuff/my_app/todo_list/migrations/0001_initial.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/about.html",
+		"/C/DjangoStuff/my_app/todo_app/urls.py",
+		"/C/code/djangoproject/pages/views.py",
+		"/C/code/djangoproject/pages/namer.py",
+		"/C/code/djangoproject/pages/templates/home.html",
+		"/C/code/djangoproject/pages/urls.py",
+		"/C/code/djangoproject/pages/templates/base.html",
+		"/C/code/djangoproject/mysite/settings.py",
+		"/C/code/djangoproject/pages/templates/about.html",
+		"/C/code/djangoproject/pages/templates/contact.html",
+		"/C/code/djangoproject/mysite/urls.py",
+		"/C/djangoapi/djangoapi/courses/views.py",
+		"/C/djangoapi/djangoapi/courses/admin.py",
+		"/C/djangoapi/djangoapi/courses/urls.py",
+		"/C/djangoapi/djangoapi/courses/models.py",
+		"/C/djangoapi/djangoapi/courses/serializers.py",
+		"/C/djangoapi/djangoapi/djangoapi/settings.py",
+		"/C/djangoapi/djangoapi/djangoapi/urls.py",
+		"/C/djangoapi/djangoapi/urls.py",
+		"/C/Python/namer_module.py",
+		"/C/Python/hello.py",
+		"/C/mysql/database.py",
+		"/C/sqlite/our_app.py",
+		"/C/sqlite/database.py",
+		"/C/sqlite/customer.db"
+	],
+	"find":
+	{
+		"height": 27.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.3333333333
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "requirements.sublime-project",
+	"replace":
+	{
+		"height": 50.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

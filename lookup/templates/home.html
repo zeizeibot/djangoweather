@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<br/>
+{% if zipcode %}
+	{{ zipcode }}
+{% endif %}
+	{% if category_color %}
+<!--	{% if api == "Error..." %}
+		Tuli errori, kokeile uudestaan...
+	{% else %} -->
+
+
+
+	
+	<div class="jumbotron {{ category_color }} ">
+  	 <h1 class="display-4">{{ olosuhde }} {{ lampotila }} {{ cels }} </h1>
+  	 <p class="lead">Alue: {{ paikka }}</p>
+  	 {{ category_description }}
+  	 <br><br/>
+	<p>{{ huuto }}</p>
+  	 
+  	 {{ virhe }}
+	</div>
+		
+		
+	{% endif %}
+
+
+{% endif %}
+
+
+{% endblock %}
+
+

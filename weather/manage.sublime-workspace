@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"sup"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"e",
+				"method"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"m",
+				"muutettava"
+			],
+			[
+				"a",
+				"api_request"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"c",
+				"category_description"
+			],
+			[
+				"your",
+				"your_name"
+			],
+			[
+				"you",
+				"your_address"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST"
+			],
+			[
+				"Lis",
+				"ListForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"al",
+				"all_items"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"todo",
+				"todo_list"
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"tu",
+				"tuple_2"
+			],
+			[
+				"t",
+				"tuple_2"
+			],
+			[
+				"num",
+				"num_2"
+			],
+			[
+				"my",
+				"my_cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n\n    <title>Sääkone</title>\n\n    <style>\n      \n        .good {background-color: #0c0;}\n        .moderate {background-color: #FFFF00;}\n        .usg {background-color: #FF9900;}\n        .unhealthy {background-color: #FF0000;}\n        .veryunhealthy {background-color: #990066;}\n        .hazardous {background-color: #660000;}\n        .kylma {background-color: #4666d0;}\n\n    </style>\n  </head>\n  <body>\n  \t<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" href=\"{% url 'home' %}\">Sääkone, ai mää vai?</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n     <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"{% url 'about' %}\">Linkit</a>\n      </li>\n      </ul>\n    <form action=\"{% url 'home' %}\"class=\"form-inline my-2 my-lg-0\" method=\"POST\">\n          {% csrf_token %}\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"alue\" aria-label=\"Search\" name=\"zipcode\">\n      <button class=\"btn btn-outline-secondary my-2 my-sm-0\" type=\"submit\">Katso sää</button>\n    </form>\n  </div>\n</nav>\n\t<br/>\n\t<div class=\"container\">\n    {% block content %}\n\n\n\t{% endblock %}\n\n</div>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n  </body>\n</html>\n\n",
+			"file": "lookup/templates/base.html",
+			"file_size": 2664,
+			"file_write_time": 133001212545840721,
+			"settings":
+			{
+				"buffer_size": 2595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"revert",
+					null,
+					"BAAAAAAAAAAAAAAAAAAAAAAAAAArCgAAPCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KICA8aGVhZD4KICAgIDwhLS0gUmVxdWlyZWQgbWV0YSB0YWdzIC0tPgogICAgPG1ldGEgY2hhcnNldD0idXRmLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vIj4KCiAgICA8IS0tIEJvb3RzdHJhcCBDU1MgLS0+CiAgICA8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Imh0dHBzOi8vc3RhY2twYXRoLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMy4xL2Nzcy9ib290c3RyYXAubWluLmNzcyIgaW50ZWdyaXR5PSJzaGEzODQtZ2dPeVIwaVhDYk1RdjNYaXBtYTM0TUQrZEgvMWZRNzg0L2o2Y1kvaUpUUVVPaGNXcjd4OUp2b1J4VDJNWncxVCIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+CgogICAgPHRpdGxlPlPDpMOka29uZTwvdGl0bGU+CgogICAgPHN0eWxlPgogICAgICAKICAgICAgICAuZ29vZCB7YmFja2dyb3VuZC1jb2xvcjogIzBjMDt9CiAgICAgICAgLm1vZGVyYXRlIHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRjAwO30KICAgICAgICAudXNnIHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkY5OTAwO30KICAgICAgICAudW5oZWFsdGh5IHtiYWNrZ3JvdW5kLWNvbG9yOiAjRkYwMDAwO30KICAgICAgICAudmVyeXVuaGVhbHRoeSB7YmFja2dyb3VuZC1jb2xvcjogIzk5MDA2Njt9CiAgICAgICAgLmhhemFyZG91cyB7YmFja2dyb3VuZC1jb2xvcjogIzY2MDAwMDt9CiAgICAgICAgLmt5bG1hIHtiYWNrZ3JvdW5kLWNvbG9yOiAjNDY2NmQwO30KCiAgICA8L3N0eWxlPgogIDwvaGVhZD4KICA8Ym9keT4KICAJPG5hdiBjbGFzcz0ibmF2YmFyIG5hdmJhci1leHBhbmQtbGcgbmF2YmFyLWRhcmsgYmctZGFyayI+CiAgPGEgY2xhc3M9Im5hdmJhci1icmFuZCIgaHJlZj0ieyUgdXJsICdob21lJyAlfSI+U8Okw6Rrb25lLCBhaSBtw6TDpCB2YWk/PC9hPgogIDxidXR0b24gY2xhc3M9Im5hdmJhci10b2dnbGVyIiB0eXBlPSJidXR0b24iIGRhdGEtdG9nZ2xlPSJjb2xsYXBzZSIgZGF0YS10YXJnZXQ9IiNuYXZiYXJTdXBwb3J0ZWRDb250ZW50IiBhcmlhLWNvbnRyb2xzPSJuYXZiYXJTdXBwb3J0ZWRDb250ZW50IiBhcmlhLWV4cGFuZGVkPSJmYWxzZSIgYXJpYS1sYWJlbD0iVG9nZ2xlIG5hdmlnYXRpb24iPgogICAgPHNwYW4gY2xhc3M9Im5hdmJhci10b2dnbGVyLWljb24iPjwvc3Bhbj4KICA8L2J1dHRvbj4KCiAgPGRpdiBjbGFzcz0iY29sbGFwc2UgbmF2YmFyLWNvbGxhcHNlIiBpZD0ibmF2YmFyU3VwcG9ydGVkQ29udGVudCI+CiAgICA8dWwgY2xhc3M9Im5hdmJhci1uYXYgbXItYXV0byI+CiAgICAgPGxpIGNsYXNzPSJuYXYtaXRlbSI+CiAgICAgICAgPGEgY2xhc3M9Im5hdi1saW5rIiBocmVmPSJ7JSB1cmwgJ2Fib3V0JyAlfSI+R2l0aHViPC9hPgogICAgICA8L2xpPgogICAgICA8L3VsPgogICAgPGZvcm0gYWN0aW9uPSJ7JSB1cmwgJ2hvbWUnICV9ImNsYXNzPSJmb3JtLWlubGluZSBteS0yIG15LWxnLTAiIG1ldGhvZD0iUE9TVCI+CiAgICAgICAgICB7JSBjc3JmX3Rva2VuICV9CiAgICAgIDxpbnB1dCBjbGFzcz0iZm9ybS1jb250cm9sIG1yLXNtLTIiIHR5cGU9InNlYXJjaCIgcGxhY2Vob2xkZXI9ImFsdWUiIGFyaWEtbGFiZWw9IlNlYXJjaCIgbmFtZT0iemlwY29kZSI+CiAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tb3V0bGluZS1zZWNvbmRhcnkgbXktMiBteS1zbS0wIiB0eXBlPSJzdWJtaXQiPkthdHNvIHPDpMOkPC9idXR0b24+CiAgICA8L2Zvcm0+CiAgPC9kaXY+CjwvbmF2PgoJPGJyLz4KCTxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICB7JSBibG9jayBjb250ZW50ICV9CgoKCXslIGVuZGJsb2NrICV9Cgo8L2Rpdj4KCiAgICA8IS0tIE9wdGlvbmFsIEphdmFTY3JpcHQgLS0+CiAgICA8IS0tIGpRdWVyeSBmaXJzdCwgdGhlbiBQb3BwZXIuanMsIHRoZW4gQm9vdHN0cmFwIEpTIC0tPgogICAgPHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZS5qcXVlcnkuY29tL2pxdWVyeS0zLjMuMS5zbGltLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtcThpL1grOTY1RHpPMHJUN2FiSzQxSlN0UUlBcVZnUlZ6cGJ6bzVzbVhLcDRZZlJ2SCs4YWJ0VEUxUGk2aml6byIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvcG9wcGVyLmpzLzEuMTQuNy91bWQvcG9wcGVyLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtVU8yZVQwQ3BIcWRTSlE2aEp0eTVLVnBodFBoeldqOVdPMWNsSFRNR2EzSkRad3JuUXE0c0Y4NmRJSE5EejBXMSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9zdGFja3BhdGguYm9vdHN0cmFwY2RuLmNvbS9ib290c3RyYXAvNC4zLjEvanMvYm9vdHN0cmFwLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtSmpTbVZneWQwcDNwWEIxclJpYlpVQVlvSUl5Nk9yUTZWcmpJRWFGZi9uSkd6SXhGRHNmNHgweElNK0IwN2pSTSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CiAgPC9ib2R5Pgo8L2h0bWw+CgoAAAAAAAAAACMKAAAAAAAAAAAAAAAAAAAAAAAAIwoAAAAAAAAAAAAAAAAAAAAAAAAjCgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{% extends 'base.html' %}\n\n{% block content %}\n\n<h1>Linkit</h1>\n<p><a href=\"https://github.com/zeizeibot?tab=repositories\" class=\"link-primary\">Mun Github</a></p>\n<p><a href=\"https://replit.com/@zeizeibot/PiirustusAppi#main.py\">PiirustusAppi</a></p>\n\n{% endblock %}\n\n\n",
+			"file": "lookup/templates/about.html",
+			"file_size": 279,
+			"file_write_time": 133001216095155218,
+			"settings":
+			{
+				"buffer_size": 268,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAEAAAAAAAAAAQwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"paste",
+					null,
+					"AQAAAJ4AAAAAAAAAogAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACeAAAAAAAAAJ4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAKMAAAAAAAAApgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACjAAAAAAAAAKMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAAPUAAAAAAAAA+QAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD1AAAAAAAAAPUAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"contents": "import os\nimport django_heroku\nimport dj_database_url\nfrom decouple import config\n\n# Build paths inside the project like this: os.path.join(BASE_DIR, ...)\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n\n\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/\n\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '!7kpa3*5(1$bck$mc!!ne*hc@ul^qs+zsq$wp$8!@p1(zna9-l'\n\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n\nALLOWED_HOSTS = []\n\n\n# Application definition\n\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'lookup',\n\n]\n\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.middleware.security.SecurityMiddleware',\n]\n\nROOT_URLCONF = 'weather.urls'\n\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',\n            ],\n        },\n    },\n]\n\nWSGI_APPLICATION = 'weather.wsgi.application'\n\n\n# Database\n# https://docs.djangoproject.com/en/2.2/ref/settings/#databases\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n\n\n# Password validation\n# https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators\n\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',\n    },\n]\n\n\n# Internationalization\n# https://docs.djangoproject.com/en/2.2/topics/i18n/\n\nLANGUAGE_CODE = 'en-us'\n\nTIME_ZONE = 'UTC'\n\nUSE_I18N = True\n\nUSE_L10N = True\n\nUSE_TZ = True\n\n\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\n\nSTATIC_URL = '/static/'\nSTATICFILES_STORAGE ='whitenoise.storage.CompressedManifestStaticFilesStorage'\n\nSECURE_SSL_REDIRECT = True\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nCSRF_COOKIE_SECURE = True\nSESSION_COOKIE_SECURE = True\n\ndjango_heroku.settings(locals())",
+			"file": "weather/settings.py",
+			"file_size": 3352,
+			"file_write_time": 133393588151510717,
+			"settings":
+			{
+				"buffer_size": 3230,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAABwFAAAAAAAAHQUAAAAAAAAAAAAAHQUAAAAAAAAhBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAUAAAAAAAAcBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAACEFAAAAAAAAUQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQUAAAAAAAAhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAE8FAAAAAAAATwUAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAAUAUAAAAAAABQBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAAE8FAAAAAAAAUAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwUAAAAAAABPBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAACEFAAAAAAAAIQUAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAAIgUAAAAAAAAiBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAACEFAAAAAAAAIgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQUAAAAAAAAhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAOsLAAAAAAAA7AsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wsAAAAAAADrCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAOwLAAAAAAAA7QsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AsAAAAAAADsCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"paste",
+					null,
+					"AQAAAO0LAAAAAAAAfAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QsAAAAAAADtCwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/C/djangoweather/requirements.txt",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAwAQAAYXNnaXJlZj09My43LjIKY2VydGlmaT09MjAyMy43LjIyCmNoYXJzZXQtbm9ybWFsaXplcj09My4yLjAKZGotZGF0YWJhc2UtdXJsPT0yLjEuMApEamFuZ289PTQuMi41CmRqYW5nby1oZXJva3U9PTAuMy4xCmd1bmljb3JuPT0yMS4yLjAKaWRuYT09My40CnBhY2thZ2luZz09MjMuMQpwc3ljb3BnMj09Mi45LjcKcHl0aG9uLWRlY291cGxlPT0zLjgKcmVxdWVzdHM9PTIuMzEuMApzcWxwYXJzZT09MC40LjQKdHlwaW5nX2V4dGVuc2lvbnM9PTQuNy4xCnR6ZGF0YT09MjAyMy4zCnVybGxpYjM9PTIuMC40CndoaXRlbm9pc2U9PTYuNS4wCgAAAAAAAAAApAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAEAAAAAAAAwAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/djangoweather",
+		"/C/djangoweather/weather"
+	],
+	"file_history":
+	[
+		"/C/djangoweather/requirements.txt",
+		"/C/djangoweather/weather/requirements.txt",
+		"/C/djangostock/stocks/quotes/templates/about.html",
+		"/C/djangostock/stocks/quotes/forms.py",
+		"/C/djangostock/stocks/quotes/admin.py",
+		"/C/djangostock/stocks/quotes/models.py",
+		"/C/djangostock/stocks/quotes/templates/base.html",
+		"/C/djangostock/stocks/quotes/urls.py",
+		"/C/djangostock/stocks/stocks/urls.py",
+		"/C/djangostock/stocks/stocks/settings.py",
+		"/C/djangostock/stocks/quotes/templates/home.html",
+		"/C/Users/joel_/Downloads/profile.publishsettings",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment_operations.json",
+		"/C/Users/joel_/AppData/Local/Temp/Temp1_Deployment-Microsoft.Web-WebApp-Portal-e7953e2e-b2fc.zip/deployment.json",
+		"/C/djangostock/stocks/quotes/views.py",
+		"/C/djangoweather/weather/Procfile",
+		"/C/djangoweather/weather/lookup/templates/home.html",
+		"/C/djangoweather/weather/weather/urls.py",
+		"/C/djangoweather/weather/weather/settings.py",
+		"/C/dental/dental/website/templates/home.html",
+		"/C/dental/dental/dental/settings.py",
+		"/C/dental/dental/dental/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/models.py",
+		"/C/DjangoStuff/my_app/todo_list/views.py",
+		"/C/DjangoStuff/my_app/todo_list/urls.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/edit.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/home.html",
+		"/C/DjangoStuff/my_app/todo_list/templates/base.html",
+		"/C/DjangoStuff/my_app/todo_list/forms.py",
+		"/C/DjangoStuff/my_app/todo_list/admin.py",
+		"/C/DjangoStuff/my_app/todo_app/settings.py",
+		"/C/DjangoStuff/my_app/static/css/my_style.css",
+		"/C/DjangoStuff/my_app/todo_list/migrations/0001_initial.py",
+		"/C/DjangoStuff/my_app/todo_list/templates/about.html",
+		"/C/DjangoStuff/my_app/todo_app/urls.py",
+		"/C/code/djangoproject/pages/views.py",
+		"/C/code/djangoproject/pages/namer.py",
+		"/C/code/djangoproject/pages/templates/home.html",
+		"/C/code/djangoproject/pages/urls.py",
+		"/C/code/djangoproject/pages/templates/base.html",
+		"/C/code/djangoproject/mysite/settings.py",
+		"/C/code/djangoproject/pages/templates/about.html",
+		"/C/code/djangoproject/pages/templates/contact.html",
+		"/C/code/djangoproject/mysite/urls.py",
+		"/C/djangoapi/djangoapi/courses/views.py",
+		"/C/djangoapi/djangoapi/courses/admin.py",
+		"/C/djangoapi/djangoapi/courses/urls.py",
+		"/C/djangoapi/djangoapi/courses/models.py",
+		"/C/djangoapi/djangoapi/courses/serializers.py",
+		"/C/djangoapi/djangoapi/djangoapi/settings.py",
+		"/C/djangoapi/djangoapi/djangoapi/urls.py",
+		"/C/djangoapi/djangoapi/urls.py",
+		"/C/Python/namer_module.py",
+		"/C/Python/hello.py",
+		"/C/mysql/database.py",
+		"/C/sqlite/our_app.py",
+		"/C/sqlite/database.py",
+		"/C/sqlite/customer.db"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lookup/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "requirements.txt",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lookup/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "weather/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3196,
+								3196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/djangoweather/requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
